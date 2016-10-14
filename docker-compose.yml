@@ -1,0 +1,10 @@
+version: '2'
+services:
+  jekyll:
+    image: jekyll/jekyll:pages
+    working_dir: /srv/jekyll
+    command: jekyll serve --force_polling
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - 4000:4000

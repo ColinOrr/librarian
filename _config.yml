@@ -1,0 +1,9 @@
+# Document Collections
+collections:
+  docs:
+    title: Documents
+    output: true
+
+# Jekyll Configuration
+exclude:
+  - docker-compose.yml
