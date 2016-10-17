@@ -1,5 +1,10 @@
 <nav class="sidebar">
 
+  <div class="sidebar-title">
+    <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+    Librarian
+  </div>
+
   {% for collection in site.collections %}
     {% if collection.label != 'posts' %}
       <h1 class="sidebar-heading">{{ collection.title }}</h1>
