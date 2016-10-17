@@ -1,3 +1,5 @@
+---
+---
 @media (min-width: 850px) {
   html {
     height: 100%;
@@ -9,6 +11,7 @@
   }
 
   .page {
+    position: relative;
     max-width: 850px;
     min-height: 100%;
     margin: 0 auto;
@@ -16,7 +19,7 @@
     background: #fff;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
-    box-shadow: 0 0 200px #ddd;
+    box-shadow: 100px 0 100px #ddd;
   }
 
   .page .container img {

@@ -1,0 +1,41 @@
+---
+---
+.sidebar {
+  position: fixed;
+  width: 50%; left: 0; top: 0; bottom: 0;
+  overflow-x: hidden;
+  background: #343131;
+}
+
+.sidebar-heading, .sidebar-item {
+  display: block;
+  margin: 0;
+  padding: 0 20px;
+  line-height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sidebar-heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #555;
+  margin-top: 20px;
+}
+
+.sidebar-item {
+  color: #b3b3b3;
+}
+
+.sidebar-item:hover, .sidebar-item.active {
+  text-decoration: none;
+  color: #b3b3b3;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 850px) {
+  .sidebar {
+    display: none;
+  }
+}
